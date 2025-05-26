@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Live Aerospace News Dashboard</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f4f4f9; margin: 0; padding: 20px; }
+    h1 { color: #003366; }
+    .news-section { margin-top: 20px; }
+    .news-source { margin-bottom: 15px; padding: 15px; background: #fff; border-left: 4px solid #003366; }
+    .news-source h2 { margin-top: 0; font-size: 18px; }
+    .news-source a { color: #1a0dab; text-decoration: none; }
+    iframe { width: 100%; height: 600px; border: none; }
+  </style>
+</head>
+<body>
+  <h1>Live Aerospace News Dashboard</h1>
+  <p>Auto-updating headlines from top aerospace sources, filtered by star trackers, space cameras, and Sun sensors.</p>
+
+  <div class="news-section">
+    <iframe src="https://www.space.com/feeds/all" sandbox="allow-scripts allow-same-origin"></iframe>
+  </div>
+</body>
+</html>
